@@ -1,0 +1,33 @@
+#submitReservation {
+    margin: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(227, 72, 72);
+    color: rgb(231, 229, 200);
+    font-size: 1rem;
+}
+
+.denyRequest {
+    margin: 5px;
+    padding: 0.25rem;
+    background-color: rgb(227, 224, 72);
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.label {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 10px;
+}
+
+div {
+    flex-direction: column;
+    left: 10px;
+}
+
+.input {
+    position: relative;
+    left: 10px;
+    right: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}

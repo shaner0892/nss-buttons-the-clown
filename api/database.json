@@ -3,15 +3,6 @@
   "completions": [],
   "reservations": [
     {
-      "parentName": "Billy",
-      "childName": "Bob",
-      "attendees": "5",
-      "address": "123 no way",
-      "date": "2022-03-10",
-      "hours": "2",
-      "id": 2
-    },
-    {
       "parentName": "Jo",
       "childName": "Shmo",
       "attendees": "14",
@@ -19,6 +10,15 @@
       "date": "2022-03-07",
       "hours": "10",
       "id": 3
+    },
+    {
+      "parentName": "Pickles",
+      "childName": "Jalapenos",
+      "attendees": "30",
+      "address": "789 condiments lane",
+      "date": "2022-03-09",
+      "hours": "90",
+      "id": 4
     }
   ]
 }

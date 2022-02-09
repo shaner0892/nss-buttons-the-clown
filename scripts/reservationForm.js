@@ -29,7 +29,7 @@ export const ReservationForm = () => {
             <input type="number" name="hours" class="input" />
         </div>
 
-        <button class="button" id="submitRequest">Submit Reservation Request</button>
+        <button class="button" id="submitReservation">Submit Reservation Request</button>
         `
 
     return html
@@ -40,7 +40,7 @@ export const ReservationForm = () => {
 const mainContainer = document.querySelector("#container")
 //adds a click event for when the submit button is pushed
 mainContainer.addEventListener("click", clickEvent => {
-    if (clickEvent.target.id === "submitRequest") {
+    if (clickEvent.target.id === "submitReservation") {
         // Get what the user typed into the form fields
         //creates a new variable and stores what is entered into the input box
         const userParentName = document.querySelector("input[name='parentName']").value

@@ -1,0 +1,6 @@
+@import "details.css";
+
+h1, h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: blue;
+}
